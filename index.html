@@ -1,0 +1,136 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!-- HEADER DA PAGINA -->
+        <div class="container">
+            <div id="header">
+                Portfolio
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#servicesTitle">Menu Serviços</a></li>
+                    <li><a href="#formImg">Fale Comigo</a></li>
+                    <li><a href="#titlePortfolio">Porfolio</a></li>
+                </ul>          
+            </div>
+        </div>
+
+        <!-- APRESENTAÇÃO INICIAL -->
+        <div class="container">
+            <div id="headerCta"> <!-- Header Call to Action-->
+                <h1>
+                    Olá, meu nome <br>
+                    é Maria <br>
+                </h1>
+                <p class="gray">
+                    Sou programadora e gostaria de apresentar meu <br>
+                    trabalho para você através deste portfólio.
+                </p>
+                <a id="buttonCta" href="#servicesTitle">Meus Serviços</a>
+            </div>
+            <div id="headerImg" class="img">
+                <img src="img/fotopessoal.svg" alt="ERROR">
+            </div>
+        </div>
+
+        <!-- LINHA CLIENTES -->
+        <div id="containerClients" class="container">
+            <div id="textContato">
+                Alguns dos <br>
+                meus clientes
+            </div>
+            <div class="logo"> <img src="img/apple.svg" alt="ERROR"> </div>
+            <div class="logo"> <img src="img/slack.svg" alt="ERROR"> </div>
+            <div class="logo"> <img src="img/spotify.svg" alt="ERROR"> </div>
+        </div>
+
+        <!-- TÍTULO SERVIÇOS -->
+        <div class="container">
+            <div id="servicesTitle">
+                <h2 class="red">Conheça</h2>
+                <h1 class="black">Meus Serviços</h1>
+                <p class="gray">
+                    Vou ajudar a sua empresa a <br>
+                    alcançar grandes resultados.
+                </p>
+            </div>
+        </div>
+
+        <!-- SERVIÇOS -->
+        <div id="services" class="container">
+            <div class="textCenter">
+                <img src="img/consultoria.svg" alt="ERROR">
+                <h2>Consultoria</h2>
+                <p class="gray">
+                    Te ajudo a organizar sua empresa <br>
+                    e melhorar seus resultados.
+                </p>
+            </div>
+            <div class="textCenter">
+                <img src="img/marketing.svg" alt="ERROR">
+                <h2>Email Marketing</h2>
+                <p class="gray">
+                    Gerenciar campanhas é difícil. <br>
+                    Conte comigo para te ajudar.
+                </p>
+            </div>
+            <div class="textCenter">
+                <img src="img/sites.svg" alt="ERROR">
+                <h2>Criação de Sites</h2>
+                <p class="gray">
+                    Desenvolvo seu site inteiro <br>
+                    do zero e te entrego prontinho.
+                </p>
+            </div>
+        </div>
+
+        <!-- FORMULÁRIO -->
+        <div id="formMenu" class="container">
+            <div id="formImg" class="img">
+                <img src="img/formulario.svg" alt="ERROR">
+            </div>
+            <div id="formulario">
+                <h2 class="red">Economize seu tempo</h2>
+                <h1 class="black">Ganhe mais dinheiro</h1>
+                <p class="gray">
+                    Digite aqui seu endereço de e-mail. Eu entrarei em <br>
+                    contato para fornecer um diagnóstico gratuito.
+                </p>
+                <form action="https://formspree.io/f/maygkyep" method="POST">
+                    <input name="contactEmail" placeholder="E-mail" type="email" required="required">
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- PORTFOLIO -->
+        <div id="titlePortfolio" class="container">
+            <div>
+                <h2 class="red">Conheça meu trabalho</h2>
+                <h1 class="black">Portfolio</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="portfolioImg">
+                <img src="img/portfolio_1.svg" alt="ERROR">
+            </div>
+            <div class="portfolioImg">
+                <img src="img/portfolio_2.svg" alt="ERROR">
+            </div>  
+            <div class="portfolioImg">
+                <img src="img/portfolio_3.svg" alt="ERROR">
+            </div>     
+        </div>
+    </body>
+    </html>
